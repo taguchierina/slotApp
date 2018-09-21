@@ -49,7 +49,7 @@ class NewViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         if compos[row] == compos[0] {
             print("hyougo")
             itiranhyou.text = "神戸市の店舗です\n" +
-            "aaaa\n" +
+            "天一" +
             "bbb\n"
         } else if compos[row] == compos[1] {
             print("osaka")
