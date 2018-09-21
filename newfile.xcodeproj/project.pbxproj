@@ -14,6 +14,7 @@
 		29B369D42146029200AA9F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B369D22146029200AA9F9D /* LaunchScreen.storyboard */; };
 		29B369DF2146029200AA9F9D /* newfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B369DE2146029200AA9F9D /* newfileTests.swift */; };
 		29B369EA2146029200AA9F9D /* newfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B369E92146029200AA9F9D /* newfileUITests.swift */; };
+		29B369FB2147911800AA9F9D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B369FA2147911800AA9F9D /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		29B369E52146029200AA9F9D /* newfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B369E92146029200AA9F9D /* newfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newfileUITests.swift; sourceTree = "<group>"; };
 		29B369EB2146029300AA9F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B369FA2147911800AA9F9D /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				29B369D02146029200AA9F9D /* Assets.xcassets */,
 				29B369D22146029200AA9F9D /* LaunchScreen.storyboard */,
 				29B369D52146029200AA9F9D /* Info.plist */,
+				29B369FA2147911800AA9F9D /* NewViewController.swift */,
 			);
 			path = newfile;
 			sourceTree = "<group>";
@@ -193,13 +196,16 @@
 				TargetAttributes = {
 					29B369C52146029000AA9F9D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					29B369D92146029200AA9F9D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 29B369C52146029000AA9F9D;
 					};
 					29B369E42146029200AA9F9D = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 29B369C52146029000AA9F9D;
 					};
 				};
@@ -256,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B369FB2147911800AA9F9D /* NewViewController.swift in Sources */,
 				29B369CC2146029000AA9F9D /* ViewController.swift in Sources */,
 				29B369CA2146029000AA9F9D /* AppDelegate.swift in Sources */,
 			);
@@ -438,7 +445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.exsumple.newfile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -455,7 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.exsumple.newfile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -474,7 +481,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.exsumple.newfileTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newfile.app/newfile";
 			};
@@ -494,7 +501,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.exsumple.newfileTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newfile.app/newfile";
 			};
@@ -513,7 +520,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.exsumple.newfileUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = newfile;
 			};
@@ -532,7 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.exsumple.newfileUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = newfile;
 			};
