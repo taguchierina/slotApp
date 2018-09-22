@@ -17,8 +17,9 @@ class NewViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
     @IBOutlet weak var myPickerView: UIPickerView!
     //店舗の一覧表のプロパティ宣言
     @IBOutlet weak var itiranhyou: UILabel!
+    
     //コンポートネントに表示する項目名
-    let compos = ["神戸","西宮・尼崎・宝塚","明石・加古川・高砂","姫路・たつの","三田・丹波","豊岡・朝来"]
+    let compos = ["兵庫","大阪","京都","滋賀","奈良","和歌山"]
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -44,7 +45,7 @@ class NewViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         inComponent component: Int
     ){
         
-        
+    
         tenpomei.text = compos[row]
         if compos[row] == compos[0] {
             print("hyougo")

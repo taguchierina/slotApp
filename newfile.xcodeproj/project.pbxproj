@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2997433521561279004A3D51 /* TiikiSentakuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2997433421561279004A3D51 /* TiikiSentakuViewController.swift */; };
+		2997433721563246004A3D51 /* TenpoppoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2997433621563246004A3D51 /* TenpoppoViewController.swift */; };
 		29B369CA2146029000AA9F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B369C92146029000AA9F9D /* AppDelegate.swift */; };
 		29B369CC2146029000AA9F9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B369CB2146029000AA9F9D /* ViewController.swift */; };
 		29B369CF2146029000AA9F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B369CD2146029000AA9F9D /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2997433421561279004A3D51 /* TiikiSentakuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiikiSentakuViewController.swift; sourceTree = "<group>"; };
+		2997433621563246004A3D51 /* TenpoppoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenpoppoViewController.swift; sourceTree = "<group>"; };
 		29B369C62146029000AA9F9D /* newfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B369C92146029000AA9F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29B369CB2146029000AA9F9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				29B369D22146029200AA9F9D /* LaunchScreen.storyboard */,
 				29B369D52146029200AA9F9D /* Info.plist */,
 				29B369FA2147911800AA9F9D /* NewViewController.swift */,
+				2997433421561279004A3D51 /* TiikiSentakuViewController.swift */,
+				2997433621563246004A3D51 /* TenpoppoViewController.swift */,
 			);
 			path = newfile;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 			files = (
 				29B369FB2147911800AA9F9D /* NewViewController.swift in Sources */,
 				29B369CC2146029000AA9F9D /* ViewController.swift in Sources */,
+				2997433521561279004A3D51 /* TiikiSentakuViewController.swift in Sources */,
 				29B369CA2146029000AA9F9D /* AppDelegate.swift in Sources */,
+				2997433721563246004A3D51 /* TenpoppoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
